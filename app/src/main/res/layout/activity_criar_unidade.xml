@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".criarUnidade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Criar Unidade"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:text="Unidade:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editUnidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#878787"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnCadastrarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#878787"
+            android:onClick="cadastrarUnidade"
+            android:text="Criar" />
+    </LinearLayout>
+
+</ScrollView>

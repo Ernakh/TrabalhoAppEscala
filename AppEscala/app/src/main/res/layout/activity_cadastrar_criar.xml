@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".cadastrarUsuario">
+
+    <TextView
+        android:id="@+id/textNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Nome Completo:" />
+
+    <EditText
+        android:id="@+id/editNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#878787"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Login:" />
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#878787"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Senha:" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#878787"
+        android:inputType="textPassword" />
+
+    <RadioGroup
+        android:id="@+id/rgCargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rTecnicoEnfermagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Técnico de enfermagem" />
+
+        <RadioButton
+            android:id="@+id/rEnfermeiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Enfermeiro" />
+
+        <RadioButton
+            android:id="@+id/rEnfermeiroUnidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Enfermeiro Chefe de unidade" />
+
+        <RadioButton
+            android:id="@+id/rEnfermeiroRT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Enfermeiro RT" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCadastrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#878787"
+        android:onClick="cadastrarUsuario"
+        android:text="Criar" />
+</LinearLayout>

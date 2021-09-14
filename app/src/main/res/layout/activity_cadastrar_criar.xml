@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".cadastrarUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNomeCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="75dp"
+            android:text="Nome Completo:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editNomeCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#878787"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Login:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editLoginCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#878787"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Senha:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editSenhaCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#878787"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <RadioGroup
+            android:id="@+id/rgCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rTecnicoEnfermagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Técnico de enfermagem"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/rEnfermeiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfermeiro"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/rEnfermeiroUnidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfermeiro Chefe de unidade"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/rEnfermeiroRT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfermeiro RT"
+                android:textColor="@color/black" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCadastrarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#878787"
+            android:onClick="cadastrarUsuario"
+            android:text="Criar" />
+    </LinearLayout>
+</ScrollView>

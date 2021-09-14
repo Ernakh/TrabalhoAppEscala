@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "82730622280",
+    "project_id": "appescala-c405",
+    "storage_bucket": "appescala-c405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82730622280:android:123025e65de148dc1b677d",
+        "android_client_info": {
+          "package_name": "com.example.appescala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82730622280-1o9coaelpt0gm6akhc21p2i9hpra1jll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appescala",
+            "certificate_hash": "ee35f75b93ebe3b53e08db14d7955902d9b7e803"
+          }
+        },
+        {
+          "client_id": "82730622280-1l2ih5auai742eb4oqr6ef50545jp5na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8IPmroN6wv7emDxDZ5ShCRjsOfVH0b7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82730622280-1l2ih5auai742eb4oqr6ef50545jp5na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

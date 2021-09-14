@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appescala">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppEscala">
+        <activity android:name=".menuUsuario"></activity>
+        <activity android:name=".menuTec" />
+        <activity android:name=".menuEnf" />
+        <activity android:name=".deletarUnidade" />
+        <activity android:name=".editarUnidade" />
+        <activity android:name=".criarUnidade" />
+        <activity android:name=".menuUnidade" />
+        <activity android:name=".deletarTurno" />
+        <activity android:name=".editarTurno" />
+        <activity android:name=".menuTurno" />
+        <activity android:name=".criarTurno" />
+        <activity android:name=".selecionarTurno" />
+        <activity android:name=".gerenciarTroca" />
+        <activity android:name=".menuLU" />
+        <activity android:name=".selecionarEquipe" />
+        <activity android:name=".calendario" />
+        <activity android:name=".selecionarEscala" />
+        <activity android:name=".menuUsuarios" />
+        <activity android:name=".editarUsuario" />
+        <activity android:name=".deletarUsuario" />
+        <activity android:name=".selecionarUsuarioEditar" />
+        <activity android:name=".cadastrarUsuario" />
+        <activity android:name=".menuRT" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

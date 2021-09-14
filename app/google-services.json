@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "184735359315",
+    "project_id": "escalaapp-8451b",
+    "storage_bucket": "escalaapp-8451b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184735359315:android:dc594fff0b8f48cdc341a6",
+        "android_client_info": {
+          "package_name": "com.example.appescala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184735359315-3rcln6rnvtjemrfg9ohgnbl8hkl1j7vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appescala",
+            "certificate_hash": "030b2425bd2e81814842b407f8a1a36e17f9065a"
+          }
+        },
+        {
+          "client_id": "184735359315-jrup0c8os42g3qsbbbv6l6emfbg2n544.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFIFHedu4OR-WtN6nmvt8zBHqjLIgZS7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184735359315-jrup0c8os42g3qsbbbv6l6emfbg2n544.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
